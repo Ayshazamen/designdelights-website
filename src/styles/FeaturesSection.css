@@ -1,0 +1,89 @@
+/* styles.css */
+
+  
+.features-section h1 {
+    color: #023a3b;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+.features-section .fe-des {
+    background-color: #d2e8e8;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid rgb(246, 245, 245);
+    border-radius: 20px;
+  }
+  
+  .fe1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fe1 h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #062c2d;
+  }
+  
+  .fe1 i {
+    font-size: 20px;
+    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    color: #0a3232;
+    padding-right: 30px;
+  }
+  .features-section{
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+    padding-bottom: 80px;
+    
+  }
+  
+  
+  @media  screen and (max-width:400px ) {
+
+    
+
+    .fe1{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    }
+    /* .fe1{
+      margin-bottom: 1.5rem;
+    }
+    .fe1 i{
+      font-size: 1.5rem;
+      padding: 5px;
+
+    }
+     */
+  }
+
+  @media  screen and (max-width:820px ){
+
+    .fe1{
+      display: flex;
+      
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+      }
+
+
+
+  }
+
+    
+
+

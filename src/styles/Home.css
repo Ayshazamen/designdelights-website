@@ -1,0 +1,46 @@
+.hero_subtitle img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.hero_Content h1{
+    
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+
+}
+.hero_Content h1 .highligh{
+    color: var(--secondary-color);
+}
+.hero_Content p{
+    font-size: 1.1rem;
+    color: var(--text-color);
+    line-height: 2rem;
+}
+.section_subtitle  {
+    
+    color: rgb(116, 78, 3);
+
+    
+}
+.testimonial_subtitle{
+    color: rgb(4, 45, 45);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.testimonial_title{
+    color: rgb(6, 49, 49);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.testimonial_desc{
+    color: rgb(5, 5, 42);
+}
+.section_titles{
+    color: rgb(6, 49, 49);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub_titles{
+    color: rgb(10, 11, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

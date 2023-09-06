@@ -1,0 +1,29 @@
+.add-designs h4{
+    font-size: 60px;
+
+}
+.design_form-control{
+    width: 600px;
+    margin: 0px 20px 10px 20px;
+    align-items: center;
+   
+}
+.designbtn{
+  background-color: rgb(2, 36, 36);
+  color: rgb(236, 252, 251);
+  border-radius: 5px;
+  height: 3rem;
+  width: 10rem;
+  
+}
+.designbtn:hover{
+    background-color: rgb(12, 59, 59);
+    color: aliceblue;
+    transform: scale(1.2);
+    
+}
+.img-fluid{
+    width: auto;
+    height: auto;
+  }
+  

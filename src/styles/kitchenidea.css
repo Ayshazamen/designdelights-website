@@ -1,0 +1,21 @@
+.kitchen_item {
+  position: relative;
+}
+
+.kitchen_item-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+
+ 
+}
+
+.kitchen_item-content h6.section_title {
+  font-size: 20px;
+  color: rgb(3, 79, 74);
+}
+.kitchen_item h6{
+font-size: 20px;
+}

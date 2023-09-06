@@ -1,0 +1,69 @@
+
+
+
+/* Media Query for Larger Screens (Displays two images per row) */
+
+
+/* Style adjustments for text */
+.section_title,
+.section_subtitle,
+.section_description {
+  margin: 10px; /* Add margin to the text for better spacing */
+}
+
+/* Style adjustments for the button */
+.design_btn {
+  background-color: rgb(6, 59, 52);
+  color: #fff;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 20px auto; /* Center-align the button and add vertical spacing */
+  display: block;
+  text-align: center;
+}
+
+.design_btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.design_btn:hover {
+  background: rgb(6, 59, 52);
+  transform: scale(1.2);
+  color: #fff;
+}
+
+.design_btn a:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+.design_img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Creates space between images */
+  
+}
+
+.design_img .mb-4 {
+  flex-basis: calc(100% - 10px); /* 2 images per row with spacing */
+  margin-bottom: 20px;
+}
+
+.design_img img {
+  max-width: 100%; /* Images will be responsive */
+  height: auto;
+}
+
+/* Media query for larger screens (adjust the breakpoint as needed) */
+@media (min-width: 768px) {
+  .design_img .mb-4 {
+    flex-basis: calc(50% - 10px); /* 3 images per row with spacing */
+    
+  }
+  
+}

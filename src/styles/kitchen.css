@@ -1,0 +1,58 @@
+.main_kit{
+    background-color: rgb(230, 249, 248);
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+    
+}
+.kit_btn{
+    background-color: rgb(2, 36, 36);
+    color: aliceblue;
+    width: 13rem;
+    height: 3rem;
+    align-items: center;
+    border-radius: 4px;
+}
+.kit_btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+.kitchen_title{
+    align-items: center;
+}
+.kit_btn:hover{
+    background-color: rgb(6, 59, 52);
+    color: #fff;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.kit_btn a:hover{
+    color: #fff;
+
+}
+.Kitchen_names h5{
+    font-size: 30px;
+    color: rgb(1, 59, 59);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.kit_img{
+    width: 20rem;
+    height: 20rem;
+}
+.kitchen_title h2{
+    font-size: 50px;
+}
+
+@media only screen and(max-width:992px) {
+    .main_kit{
+      margin: 0px 0px  0px 0px;
+    
+    }
+  
+  }
